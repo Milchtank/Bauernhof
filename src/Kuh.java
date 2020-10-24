@@ -14,7 +14,7 @@ public class Kuh extends Tier {
 		// TODO Auto-generated method stub
 		super.essen();
 		
-		System.out.println("Die Kuh muss das Essen immer wiederkaufen");
+		System.out.println("Die " +name +" muss das Essen immer wiederkaufen");
 	}
 
 	

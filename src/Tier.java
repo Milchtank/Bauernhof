@@ -23,7 +23,7 @@ public class Tier {
 	
 	public void essen() {
 		
-		System.out.println("Das Tier ist am Essen");
+		System.out.println(name +" ist am Essen!");
 	}
 	
 }
