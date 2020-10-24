@@ -9,6 +9,12 @@ public class Main {
 		
 				
 			olga.essen();	
+			
+		Hund bello = new Hund ("bello", 30, 12, "blau");
+		
+		
+		System.out.println("Bello erstellt");
+		bello.essen();
 	}
 
 }
