@@ -8,7 +8,8 @@ public class Main {
 		Kuh paul = new Kuh("paul", 500, 30, "grün");
 		
 				
-			olga.essen();	
+			olga.essen();
+			paul.essen();
 			
 		Hund bello = new Hund ("bello", 30, 12, "blau");
 		
