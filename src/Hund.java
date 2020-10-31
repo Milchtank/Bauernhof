@@ -8,6 +8,11 @@ public class Hund extends Tier {
 		this.pfoten = pfoten;
 	}
 	
+	public Hund() {
+		
+		
+	}
+	
 	public void Hund() {
 		
 		
