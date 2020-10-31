@@ -65,7 +65,7 @@ public class Main {
 			case 2: {
 				
 				System.out.println("Case 2");
-				System.out.println("Hund erstellen");
+				System.out.println("Hund erstellen!");
 				
 			}break;
 			default: {
