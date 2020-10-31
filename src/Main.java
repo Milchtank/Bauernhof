@@ -13,6 +13,10 @@ public class Main {
 			
 		Hund bello = new Hund ("bello", 30, 12, "blau");
 		
+		Hund carlo = new Hund ("carlo", 32, 13, "grün");
+		
+		carlo.essen();
+		
 		
 		System.out.println("Bello erstellt");
 		bello.essen();
