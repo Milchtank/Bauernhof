@@ -37,16 +37,23 @@ public class Main {
 				System.out.println("Case 1");
 				System.out.println("Wir erstellen eine Kuh");
 				System.out.println("Bitte gib deiner Kuh einen Namen");
+				Scanner scan2 = new Scanner(System.in);
 				
-				String eingabeName = scan.toString();
+				String eingabeName = scan2.nextLine();
 
 
-//				Kuh neueKuh = new Kuh();
 				
-//				neueKuh.name = scan.toString();
-//				
-//				System.out.println(neueKuh.name);
-//				System.out.println(eingabeName);
+				System.out.println("Bitte gib folgende Angaben an in dieser Reihenfolge: 1. Name 2. Gewicht, 3. Alter 4. Augenfarbe");
+				
+				Kuh neueKuh = new Kuh(scan2.nextLine(), scan.nextInt(), scan.nextInt(), scan2.nextLine());
+				System.out.println("Anzahl Hufe");
+				neueKuh.hufe = scan.nextInt();
+				
+				
+//				neueKuh.name = scan2.nextLine();
+				
+				System.out.println("Unsere erstellte Kuh heisst " + neueKuh.name + ". Sie ist " + neueKuh.alter + " Jahre alt. Sie wiegt " + neueKuh.gewicht + " KG. Sie hat auch " + neueKuh.hufe + " Hufen wie jede Kuh. Ihre Augenfarbe ist " + neueKuh.augenfarbe + ".");
+				System.out.println(eingabeName);
 				
 				
 				
