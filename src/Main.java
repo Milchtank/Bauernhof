@@ -50,7 +50,7 @@ public class Main {
 				neueKuh.hufe = scan.nextInt();
 				
 				
-//				neueKuh.name = scan2.nextLine();
+
 				
 				System.out.println("Unsere erstellte Kuh heisst " + neueKuh.name + ". Sie ist " + neueKuh.alter + " Jahre alt. Sie wiegt " + neueKuh.gewicht + " KG. Sie hat auch " + neueKuh.hufe + " Hufen wie jede Kuh. Ihre Augenfarbe ist " + neueKuh.augenfarbe + ".");
 				System.out.println(eingabeName);
@@ -65,6 +65,7 @@ public class Main {
 			case 2: {
 				
 				System.out.println("Case 2");
+				System.out.println("Hund erstellen");
 				
 			}break;
 			default: {
