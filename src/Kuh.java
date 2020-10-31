@@ -9,6 +9,10 @@ public class Kuh extends Tier {
 		this.hufe = hufe;
 	}
 
+	public Kuh() {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public void essen() {
 		// TODO Auto-generated method stub

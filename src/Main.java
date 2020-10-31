@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Main {
 
@@ -17,9 +18,56 @@ public class Main {
 		
 		carlo.essen();
 		
-		
+
 		System.out.println("Bello erstellt");
 		bello.essen();
+		
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Willkommen im Tier Generator");
+		System.out.println("Bitte einen Case angeben 1 oder 2");
+		
+		int eingabeUser = scan.nextInt();
+		
+		switch (eingabeUser) {
+		
+			case 1: {
+				
+				System.out.println("Case 1");
+				System.out.println("Wir erstellen eine Kuh");
+				System.out.println("Bitte gib deiner Kuh einen Namen");
+				
+				String eingabeName = scan.toString();
+
+
+//				Kuh neueKuh = new Kuh();
+				
+//				neueKuh.name = scan.toString();
+//				
+//				System.out.println(neueKuh.name);
+//				System.out.println(eingabeName);
+				
+				
+				
+				
+				
+				
+			}break;
+			
+			case 2: {
+				
+				System.out.println("Case 2");
+				
+			}break;
+			default: {
+				
+				System.out.println("Keine Eingabe erkannt");
+			}
+		
+		}
+		
+		
 	}
 
 }

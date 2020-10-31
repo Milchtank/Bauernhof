@@ -9,6 +9,12 @@ public class Tier {
 	
 	//Konstruktoren
 	
+	public Tier() {
+		
+		
+	}
+	
+	
 	public Tier(String name, int gewicht, int alter, String augenfarbe) {
 		
 		this.name = name;
