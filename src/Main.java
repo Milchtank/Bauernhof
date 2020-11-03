@@ -18,11 +18,16 @@ public class Main {
 		
 		carlo.essen();
 		
+		
 
 		System.out.println("Bello erstellt");
 		bello.essen();
+		bello.pfoten = 4;
 		
 		
+		Schwein klaus = new Schwein("klaus", 210, 4, "braun");
+		klaus.geruch = "sehr Stark";
+		System.out.println(klaus.geruch);
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Willkommen im Tier Generator");
