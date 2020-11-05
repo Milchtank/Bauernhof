@@ -17,6 +17,7 @@ public class Main {
 		Hund carlo = new Hund ("carlo", 32, 13, "grün");
 		
 		carlo.essen();
+		carlo.essen();
 		
 		
 
