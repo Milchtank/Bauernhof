@@ -18,6 +18,18 @@ public class Hund extends Tier {
 		
 	}
 	
+	public void essen() {
+		
+		
+		super.essen();
+		
+	}
+	
+	public void bellen() {
+		
+		
+	}
+	
 	
 	
 
